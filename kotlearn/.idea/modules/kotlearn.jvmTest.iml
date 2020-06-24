@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" isTestModule="true" externalProjectId="kotlearn">
+        <dependsOnModuleNames>kotlearn_commonTest</dependsOnModuleNames>
+        <sourceSets>
+          <sourceSet>kotlearn.jvmMain</sourceSet>
+          <sourceSet>kotlearn.commonMain</sourceSet>
+          <sourceSet>kotlearn.commonTest</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <externalSystemTestTasks>jvmTest|kotlearn:jvmTest|jvm</externalSystemTestTasks>
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/jvm/test" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-netty/1.1.3/23b3d089f456e29746f0231fdd562e0326d37822/ktor-server-netty-1.1.3.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-host-common/1.1.3/5ea6f8eade97c7d32174c4084f2af212de453158/ktor-server-host-common-1.1.3.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-html-builder/1.1.3/5fa961204a363c28e613a696972ec5f982faabbe/ktor-html-builder-1.1.3.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-core/1.1.3/246c5b16adbb0bad25ab5d8dddc6fb651f8e25e3/ktor-server-core-1.1.3.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio/1.1.3/47e0be9d70818ab08be9ec8c5a05a13347167b8a/ktor-http-cio-1.1.3.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/1.1.3/7ee93a1a4ec1e6274a49a27fdff546bf3b1663d/ktor-http-jvm-1.1.3.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-network/1.1.3/79c80c205bcac1442f9d45ae91222a5ddd60d143/ktor-network-1.1.3.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils-jvm/1.1.3/bf55431317b60ea57b43ee896651773ccf5c442e/ktor-utils-jvm-1.1.3.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.61/e91d61b7cfd9a45566b580fef18bbd5c32d505b5/kotlin-stdlib-jdk8-1.3.61.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.61/70dffc5f8ac5ea7c34f30deac5b9d8b1d48af066/kotlin-stdlib-jdk7-1.3.61.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.21/d0d5ff2ac2ebd8a42697af41e20fc225a23c5d3b/kotlin-reflect-1.3.21.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-io-jvm/0.1.6/c0147f472d788a7b2e451b46e1e26b5093b0730/kotlinx-coroutines-io-jvm-0.1.6.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-jvm/0.1.6/a05cbb3480835e25bdd66a87c2f35a45a793d5b9/kotlinx-io-jvm-0.1.6.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-html-jvm/0.6.12/95dfe9d85947c8dd57c16dced385a37280166e56/kotlinx-html-jvm-0.6.12.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.1.1/830dbee69f68af66803b8b426e0a5f48be7a7db4/kotlinx-coroutines-jdk8-1.1.1.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.1.1/3d2b7321cdef9ebf9cb7729ea4f75a6f6457df86/kotlinx-coroutines-core-1.1.1.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.61/4702105e97f7396ae41b113fdbdc180ec1eb1e36/kotlin-stdlib-1.3.61.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-io/0.1.6/70aec74c12fb2eb3bb6dd9dd3331b5a74e1a3f37/kotlinx-coroutines-io-0.1.6.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/1.1.1/7ed04382bdf0c89c5d87ac462aa4935ae8e85243/kotlinx-coroutines-core-common-1.1.1.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io/0.1.6/da1ba2f92bddb47f27ea0fa577c85f54f67736d7/kotlinx-io-0.1.6.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.61/65abb71d5afb850b68be03987b08e2c864ca3110/kotlin-stdlib-common-1.3.61.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.12.2/b164d85b406b8bbec6bed935755fe0df412bde34/atomicfu-0.12.2.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.3.1/2cf7a6cc79732e3bdf1647d7404279900ca63eb0/config-1.3.1.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.24.Final/c0c0d9d20402e4493083447052b59d5680e88b2e/netty-codec-http2-4.1.24.Final.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.alpn/alpn-api/1.1.3.v20160715/a1bf3a937f91b4c953acd13e8c9552347adc2198/alpn-api-1.1.3.v20160715.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-common/0.12.2/2b9f5910aebb4a0e5a611f0b2fda527d5ebaec5c/atomicfu-common-0.12.2.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.24.Final/8f20009953b2c7c3d860cef928007bc01aa58ac/netty-codec-http-4.1.24.Final.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.24.Final/bad56e7da211c5ebe031ae155cb648b1065c7bb6/netty-handler-4.1.24.Final.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.24.Final/290857e5103956bbda11836e33245f2439226b77/netty-codec-4.1.24.Final.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.24.Final/d37292c94d3a4cba48d9b6cfb6e8e55282035d0d/netty-transport-4.1.24.Final.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.24.Final/e354bed2e60b568307138e403f55ba241c1c16d2/netty-buffer-4.1.24.Final.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.24.Final/dbc1e5b50d31aed883ea3beeb6489e1977d0687f/netty-resolver-4.1.24.Final.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.24.Final/7eeecd7906543214c3c1c984d275d3c6de10b99d/netty-common-4.1.24.Final.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.3.61/c04d4425ea7f7fb0c755cf68651f9d25d284837d/kotlin-test-junit-1.3.61.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.3.61/a5931cd3af2c9648e3fa1459fc4968f733aafdb2/kotlin-test-1.3.61.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-common/1.3.61/c243c22f908c91f2ad9dc767080d97dec6a33cc4/kotlin-test-common-1.3.61.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.3.61/d62b1dc6be222c383d1b738e10cd1f83c6f8c0d7/kotlin-test-annotations-common-1.3.61.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar;C:/Users/Karan/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="kotlearn" />
+          <option name="friendPaths">
+            <array>
+              <option value="$MODULE_DIR$/../../build/classes/kotlin/jvm/main" />
+            </array>
+          </option>
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.61/e5feb39c8de63dcbdc1154b34ca4413874231605/kotlin-script-runtime-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.3.61/169747d90a1ccdd30b25c381a06bee3fe579bf2/kotlin-scripting-common-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.3.61/b9311f022363534f8776e4392aa9c4f4d5a62a44/kotlin-scripting-jvm-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.61/65abb71d5afb850b68be03987b08e2c864ca3110/kotlin-stdlib-common-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.61/4702105e97f7396ae41b113fdbdc180ec1eb1e36/kotlin-stdlib-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.2.1/3839faf625f4197acaeceeb6da000f011a2acb49/kotlinx-coroutines-core-1.2.1.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="multiPlatform" value="true" />
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+</module>
